@@ -16,6 +16,7 @@ public class ExampleItem {
     }
 
     public int getImageResource() {
+
         return mImageResource;
     }
 

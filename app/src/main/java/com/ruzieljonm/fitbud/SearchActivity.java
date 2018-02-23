@@ -59,15 +59,15 @@ public class SearchActivity extends AppCompatActivity {
 
     private void createExampleList() {
         mExampleList = new ArrayList<>();
-        mExampleList.add(new ExampleItem(R.drawable.apple, "One", "Line 2"));
-        mExampleList.add(new ExampleItem(R.drawable.apple, "Two", "Line 2"));
-        mExampleList.add(new ExampleItem(R.drawable.apple, "Three", "Line 2"));
-        mExampleList.add(new ExampleItem(R.drawable.apple, "Four", "Line 2"));
-        mExampleList.add(new ExampleItem(R.drawable.apple, "Five", "Line 2"));
-        mExampleList.add(new ExampleItem(R.drawable.apple, "Six", "Line 2"));
-        mExampleList.add(new ExampleItem(R.drawable.apple, "Seven", "Line 2"));
-        mExampleList.add(new ExampleItem(R.drawable.apple, "Eight", "Line 2"));
-        mExampleList.add(new ExampleItem(R.drawable.apple, "Nine", "Line 2"));
+        mExampleList.add(new ExampleItem(R.drawable.mongo, "Ginisang Mongo", "213 Calories"));
+        mExampleList.add(new ExampleItem(R.drawable.pinakbet, "Pinakbet", "200 Calories"));
+        mExampleList.add(new ExampleItem(R.drawable.crispykangkong, "Crispy Kangkong", "300 Calories"));
+        mExampleList.add(new ExampleItem(R.drawable.tortangtalong, "Tortang Talong", "320 Calories"));
+        mExampleList.add(new ExampleItem(R.drawable.ginisangpapaya, "Ginisang Papaya", "170 Calories"));
+        mExampleList.add(new ExampleItem(R.drawable.tilapia, "Fried Tilapia in Coconut Milk ", "150 Calories"));
+        mExampleList.add(new ExampleItem(R.drawable.ginisangkalabasa, "Ginisang Sitaw at Kalabasa", "160 Calories"));
+        mExampleList.add(new ExampleItem(R.drawable.ampalaya, "Ginisang Ampalaya at Itlog", "100 Calories"));
+        mExampleList.add(new ExampleItem(R.drawable.squash, "Squash and Green Beans in Coconut Milk", "500 Calories"));
     }
 
     private void buildRecyclerView() {
