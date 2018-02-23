@@ -10,6 +10,6 @@ public class ChallengeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_challenge);
 
-        //REGILZ
+        //Ulol hahah
     }
 }
