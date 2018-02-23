@@ -80,7 +80,7 @@ public class SearchActivity extends AppCompatActivity {
         mRecyclerView.setAdapter(mAdapter);
     }
     //iii
-
+  
 
 
 }
