@@ -45,6 +45,7 @@ public class SearchActivity extends AppCompatActivity {
         });
     }
 
+
     private void filter(String text) {
         ArrayList<ExampleItem> filteredList = new ArrayList<>();
 
@@ -59,7 +60,7 @@ public class SearchActivity extends AppCompatActivity {
 
     private void createExampleList() {
         mExampleList = new ArrayList<>();
-        mExampleList.add(new ExampleItem(R.drawable.mongo, "Ginisang Mongo", "213 Calories"));
+        mExampleList.add(new ExampleItem(R.drawable.regil, "Ginisang Mongo", "213 Calories"));
         mExampleList.add(new ExampleItem(R.drawable.pinakbet, "Pinakbet", "200 Calories"));
         mExampleList.add(new ExampleItem(R.drawable.crispykangkong, "Crispy Kangkong", "300 Calories"));
         mExampleList.add(new ExampleItem(R.drawable.tortangtalong, "Tortang Talong", "320 Calories"));
@@ -69,6 +70,8 @@ public class SearchActivity extends AppCompatActivity {
         mExampleList.add(new ExampleItem(R.drawable.ampalaya, "Ginisang Ampalaya at Itlog", "100 Calories"));
         mExampleList.add(new ExampleItem(R.drawable.squash, "Squash and Green Beans in Coconut Milk", "500 Calories"));
     }
+
+
 
     private void buildRecyclerView() {
         mRecyclerView = (RecyclerView) findViewById(R.id.recyclerView);
