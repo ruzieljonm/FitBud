@@ -1,4 +1,4 @@
-package softeng.fitbud;
+package com.ruzieljonm.fitbud;
 
 import android.content.Intent;
 import android.os.Bundle;

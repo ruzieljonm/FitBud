@@ -1,4 +1,4 @@
-package softeng.fitbud;
+package com.ruzieljonm.fitbud;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
