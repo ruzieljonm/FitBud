@@ -70,8 +70,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         }
 
-        if(id==R.id.settings){
-            Toast.makeText(this, "This is Settings", Toast.LENGTH_SHORT).show();
+        if(id==R.id.challenges){
+            Intent intent = new Intent(MainActivity.this,ChallengeActivity.class);
+            startActivity(intent);
 
         }
         return false;

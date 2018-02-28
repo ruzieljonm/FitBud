@@ -20,9 +20,10 @@
     android:icon="@drawable/ic_list_black_24dp"/>
 
 <item
-    android:id="@+id/settings"
-    android:title="Settings"
+    android:id="@+id/challenges"
+    android:title="Challenges"
     android:icon="@drawable/ic_settings_black_24dp"/>
+
 
 
 
