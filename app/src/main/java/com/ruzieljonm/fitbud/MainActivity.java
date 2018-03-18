@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         }
         if(id==R.id.foodmonitoring){
-            Toast.makeText(this, "This is Food Monitoring", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "This is Monitoring", Toast.LENGTH_SHORT).show();
 
         }
 

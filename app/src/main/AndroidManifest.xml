@@ -11,15 +11,21 @@
         android:theme="@style/AppTheme">
         <activity android:name=".SearchActivity" />
         <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".WeeklyListActivity" />
+        <activity android:name=".AcceptActivity" />
+        <activity android:name=".ChallengeActivity" />
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".WeeklyListActivity" />
-        <activity android:name=".AcceptActivity" />
-        <activity android:name=".ChallengeActivity"></activity>
+        <activity android:name=".FoodRegistrationActivity" />
+        <activity android:name=".UserAreaActivity" />
+        <activity android:name=".RegisterActivity"></activity>
     </application>
 
 </manifest>
